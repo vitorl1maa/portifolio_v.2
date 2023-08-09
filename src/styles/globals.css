@@ -1,0 +1,26 @@
+/* eslint-disable */
+/* eslint-disable no-unused-vars, no-console */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0c17;
+}
+
+.container_layout {
+  @apply px-32
+}
+
+.button_default {
+  @apply w-40 text-lg px-5 py-3 border rounded-md border-neutral-800 bg-zinc-800/30 justify-center
+}
+
+/* border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark: border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 */
