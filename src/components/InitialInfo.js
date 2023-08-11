@@ -1,38 +1,48 @@
-import { LinkedinLogo, GithubLogo } from "@phosphor-icons/react";
+import { LinkedinLogo, GithubLogo, X, List } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useRef } from "react";
 
 const InitialInfo = () => {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
+
   return (
     <div className="lg:h-screen container_layout bg-hero-pattern bg-no-repeat bg-left bg-contain bg-opacity-5 py-3">
-      <div className="flex flex-col lg:flex-row justify-between py-5 text-white items-center">
+      <div className="flex  justify-between py-5  lg:px-0 text-white items-center">
         <span href="#" className="flex items-center gap-1 lg:mb-0">
           <Image src="/logo.png" width={50} height={50} alt="logo" />
         </span>
         <nav>
-          <button
-            aria-label="Abrir Menu"
-            id="menu-icon"
-            aria-haspopup="true"
-            aria-controls="navbar"
-            aria-expanded="false"
-          >
-            <span id="hamburger-icon"></span>
-          </button>
-
-          <ul className="flex flex-col lg:flex-row gap-4 lg:gap-14" role="menu">
-            <li className="nav-links">
-              <Link href="#home">Home</Link>
+          <ul className="flex gap-4 lg:gap-14 menu" ref={navRef}>
+            <li className="nav-links text-2xl lg:text-base">
+              <Link href="#home" onClick={showNavbar}>
+                Home
+              </Link>
             </li>
-            <li className="nav-links">
+            <li
+              className="nav-links text-2xl lg:text-base"
+              onClick={showNavbar}
+            >
               <Link href="#about">Sobre</Link>
             </li>
-            <li className="nav-links">
+            <li
+              className="nav-links text-2xl lg:text-base"
+              onClick={showNavbar}
+            >
               <Link href="#projects">Projetos</Link>
             </li>
+            <button className="nav-close-btn">
+              <X size={32} color="#E76F64" onClick={showNavbar} />
+            </button>
           </ul>
         </nav>
+        <button className="nav-btn nav-open-btn" onClick={showNavbar}>
+          <List size={32} color="#E76F64" />
+        </button>
       </div>
 
       <div className="w-full flex flex-col lg:flex-row justify-center items-center lg:justify-evenly container mx-auto pt-10 text-white">
@@ -41,9 +51,9 @@ const InitialInfo = () => {
             Olá, meu nome é Vitor eu sou Desenvolvedor{" "}
             <span className="text-secundary">Front-End</span>.
           </h1>
-          <p className="w-full text-center lg:text-left py-5 text-lg lg:w-4/5 lg:text-2xl">
-            Sou um Desenvolvedor Front-End apaixonado por transformar conceitos
-            criativos e minimalistas em experiências digitais.
+          <p className="w-full text-center lg:text-left py-5 text-2xl lg:w-4/5 ">
+            Sou um Desenvolvedor que transforma conceitos criativos e
+            minimalistas em experiências digitais.
           </p>
         </div>
 

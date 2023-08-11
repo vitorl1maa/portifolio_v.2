@@ -9,21 +9,20 @@ function About() {
       <div className="text-white w-full pb-14">
         <h3 className="text-3xl py-5 text-center lg:text-left">Sobre mim</h3>
         <p className="text-lg text-justify">
-          Olá! Meu nome é Vitor e sou um desenvolvedor Front-End apaixonado por
-          criar experiências digitais. Com habilidades em{" "}
-          <span className="text-secundary">React.JS</span>,{" "}
-          <span className="text-secundary">Next.JS</span> e{" "}
-          <span className="text-secundary">JavaScript</span>, estou sempre
-          procurando aprender mais e evoluir meu conhecimento. Minha paixão por
-          tecnologia e programação surgiu desde cedo, e desde então tenho
-          dedicado meus esforços para alcançar esse sonho. Trabalho em projetos
-          pessoais e profissionais, sempre buscando maneiras de melhorar minhas
-          habilidades e entregar produtos excepcionais aos usuários. Sou
-          motivado por desafios e amo trabalhar em equipe para criar soluções
-          inovadoras. Acredito que a colaboração e a comunicação efetiva são
-          fundamentais para o sucesso de qualquer projeto. Acessando meu
-          repositório no Github, é possível ver os projetos que faço para
-          praticar e os projetos nos quais trabalhei.
+          Olá! Sou um desenvolvedor Front-End apaixonado por programação. Com
+          habilidades em <span className="text-secundary">React.JS</span>,
+          <span className="text-secundary"> Next.JS</span> e{" "}
+          <span className="text-secundary">JavaScript</span>. Minha jornada no
+          mundo do desenvolvimento tem sido marcada por um compromisso contínuo
+          com a inovação e a aprendizagem. A cada projeto, procuro não apenas
+          atender, mas superar as expectativas, entregando funcionalidades
+          robustas, designs intuitivos e um desempenho otimizado. A integração
+          entre a técnica apurada e a criatividade tem sido a chave para criar
+          aplicações que verdadeiramente impactam e agregam valor. Trabalhar em
+          equipe, compartilhar conhecimentos e aprender com os colegas são
+          aspectos que valorizo profundamente. Acredito que, em um mundo digital
+          em constante evolução, a adaptação e a capacidade de manter-se
+          atualizado são cruciais.
         </p>
       </div>
 
