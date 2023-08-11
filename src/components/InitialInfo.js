@@ -5,10 +5,10 @@ import React from "react";
 
 const InitialInfo = () => {
   return (
-    <div className="h-screen container_layout bg-hero-pattern bg-no-repeat bg-left bg-contain bg-opacity-5 py-3">
-      <div className="flex justify-between py-5 text-white items-center">
-        <span href="#" class="logo" className="flex items-center gap-1">
-          <Image src="/logo.png" width={50} height={50} />
+    <div className="lg:h-screen container_layout bg-hero-pattern bg-no-repeat bg-left bg-contain bg-opacity-5 py-3">
+      <div className="flex flex-col lg:flex-row justify-between py-5 text-white items-center">
+        <span href="#" className="flex items-center gap-1 lg:mb-0">
+          <Image src="/logo.png" width={50} height={50} alt="logo" />
         </span>
         <nav>
           <button
@@ -21,7 +21,7 @@ const InitialInfo = () => {
             <span id="hamburger-icon"></span>
           </button>
 
-          <ul className="flex gap-14" role="menu">
+          <ul className="flex flex-col lg:flex-row gap-4 lg:gap-14" role="menu">
             <li className="nav-links">
               <Link href="#home">Home</Link>
             </li>
@@ -35,13 +35,13 @@ const InitialInfo = () => {
         </nav>
       </div>
 
-      <div className="w-full flex justify-evenly container mx-auto pt-10 text-white items-center">
-        <div className="w-4/5">
-          <h1 className="text-5xl font-extrabold leading-tight">
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center lg:justify-evenly container mx-auto pt-10 text-white">
+        <div className="w-full lg:w-4/5  items-center ">
+          <h1 className="text-3xl text-center lg:text-left lg:text-5xl font-extrabold leading-tight">
             Olá, meu nome é Vitor eu sou Desenvolvedor{" "}
             <span className="text-secundary">Front-End</span>.
           </h1>
-          <p className="w-4/5 py-5 text-2xl">
+          <p className="w-full text-center lg:text-left py-5 text-lg lg:w-4/5 lg:text-2xl">
             Sou um Desenvolvedor Front-End apaixonado por transformar conceitos
             criativos e minimalistas em experiências digitais.
           </p>
@@ -49,15 +49,16 @@ const InitialInfo = () => {
 
         <span>
           <Image
-            src="/geek.png"
+            src="/profile.jpeg"
             width={400}
             height={400}
             className="rounded-full"
+            alt="profile"
           />
         </span>
       </div>
 
-      <div className="flex gap-5">
+      <div className="flex pt-10 justify-center lg:justify-start lg:flex-row gap-4 lg:gap-5">
         <Link
           href="https://www.linkedin.com/in/vitor-lima-591aa4146/"
           target="_blank"

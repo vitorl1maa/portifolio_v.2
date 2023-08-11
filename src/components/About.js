@@ -1,13 +1,14 @@
 import { Check, ReadCvLogo } from "@phosphor-icons/react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function About() {
   return (
-    <div className="h-screen container_layout">
+    <div id="about" className="h-full lg:h-screen container_layout">
       <div className="text-white w-full pb-14">
-        <h3 className="text-3xl py-5">Sobre mim</h3>
-        <p className="text-lg">
+        <h3 className="text-3xl py-5 text-center lg:text-left">Sobre mim</h3>
+        <p className="text-lg text-justify">
           Olá! Meu nome é Vitor e sou um desenvolvedor Front-End apaixonado por
           criar experiências digitais. Com habilidades em{" "}
           <span className="text-secundary">React.JS</span>,{" "}
@@ -26,12 +27,14 @@ function About() {
         </p>
       </div>
 
-      <div className="text-white flex gap-72 items-center bg-hero-pattern-secundary bg-no-repeat bg-center bg-cover bg-opacity-5 py-3">
-        <div className="w-2/4">
-          <h3 className="text-3xl py-5">Diferenciais</h3>
+      <div className="text-white flex flex-col lg:flex-row gap-10 lg:gap-72 items-center bg-hero-pattern-secundary bg-no-repeat bg-center bg-cover bg-opacity-5 py-3">
+        <div className="lg:w-2/4">
+          <h3 className="text-3xl py-5 text-center lg:text-left">
+            Diferenciais
+          </h3>
           <div className="py-3">
-            <div className="flex gap-3">
-              <span className="bg-secundary rounded-full w-7 py-0.5 flex justify-center items-center">
+            <div className="flex gap-3 items-center">
+              <span className="bg-secundary rounded-full w-7 h-7 p-1 lg:py-0.5 flex justify-center items-center">
                 <Check size={18} color="#0f0c17" />
               </span>
               <h4 className="text-xl font-bold">
@@ -40,15 +43,15 @@ function About() {
             </div>
             <p className="py-3">
               Trabalho com a implementação fiel de interfaces pensando pela
-              melhor experiência do usuario para atender as expectativas de cada
+              melhor experiência do usuário para atender as expectativas de cada
               projeto.
             </p>
           </div>
 
           <div className="py-3">
-            <div className="flex gap-3">
-              <span className="bg-secundary rounded-full w-7 py-0.5 flex justify-center items-center">
-                <Check size={18} color="#0f0c17" />
+            <div className="flex gap-3 items-center">
+              <span className="bg-secundary rounded-full w-7 h-7 p-1 lg:py-0.5 flex justify-center items-center">
+                <Check size={20} color="#0f0c17" />
               </span>
               <h4 className="text-xl font-bold">Clean Code</h4>
             </div>
@@ -59,9 +62,9 @@ function About() {
           </div>
 
           <div className="py-3">
-            <div className="flex gap-3">
-              <span className="bg-secundary rounded-full w-7 py-0.5 flex justify-center items-center">
-                <Check size={18} color="#0f0c17" />
+            <div className="flex gap-3 items-center">
+              <span className="bg-secundary rounded-full w-7 h-7 p-1 lg:py-0.5 flex justify-center items-center">
+                <Check size={20} color="#0f0c17" />
               </span>
               <h4 className="text-xl font-bold">Metodologias Ágeis</h4>
             </div>
@@ -74,19 +77,25 @@ function About() {
           </div>
         </div>
 
-        <div className="flex justify-center flex-col gap-3">
+        <div className="flex justify-center flex-col gap-3 ">
           <span className="wrapper border border-neutral-800">
             <Image
-              src="/cv_model.png"
+              src="/image_curriculo.png"
               width={300}
               height={300}
               className="rounded-md"
             />
           </span>
-          <button className="button_default flex gap-1 items-center hover:border-secundary transition-all hover:translate-y-2">
-            <ReadCvLogo size={25} />
-            Download CV
-          </button>
+          <Link
+            href="/Currículo Desenvolvedor Frontend.pdf"
+            target="_blank"
+            download="Currículo Desenvolvedor Frontend - Vitor Lima"
+          >
+            <button className="w-full button_default flex gap-1 items-center hover:border-secundary transition-all hover:translate-y-2">
+              <ReadCvLogo size={25} />
+              Download CV
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -5,21 +5,29 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import ProjectShow from "@/components/ProjectShow";
 import Footer from "@/components/Footer";
-
-const poppins = Poppins({
-  weight: ["300", "400", "700"],
-  style: ["normal"],
-  subsets: ["latin"],
-});
+import React, { useState } from "react";
 
 export default function Home() {
+  const [activeProject, setActiveProject] = useState(null);
+
+  const handleProjectClick = (project, index) => {
+    setActiveProject({ ...project, index });
+  };
+
+  const handleBackClick = () => {
+    setActiveProject(null);
+  };
+
   return (
-    <>
+    <div className="flex flex-col w-full h-full">
       <InitialInfo />
       <About />
-      <Projects />
-      {/* <ProjectShow /> */}
+      {activeProject && activeProject.index !== undefined ? (
+        <ProjectShow {...activeProject} onBackClick={handleBackClick} />
+      ) : (
+        <Projects onProjectClick={handleProjectClick} />
+      )}
       <Footer />
-    </>
+    </div>
   );
 }
