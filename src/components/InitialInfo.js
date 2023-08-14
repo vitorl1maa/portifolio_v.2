@@ -49,7 +49,7 @@ const InitialInfo = () => {
         <div className="w-full lg:w-4/5  items-center ">
           <h1 className="text-3xl text-center lg:text-left lg:text-5xl font-extrabold leading-tight">
             Olá, meu nome é Vitor eu sou Desenvolvedor{" "}
-            <span className="text-secundary">Front-End</span>.
+            <span className="text-secundary">Front-end</span>.
           </h1>
           <p className="w-full text-center lg:text-left py-5 text-2xl lg:w-4/5 ">
             Sou um Desenvolvedor que transforma conceitos criativos e
@@ -57,7 +57,7 @@ const InitialInfo = () => {
           </p>
         </div>
 
-        <span>
+        <div className="rounded-full bg-none lg:bg-hero-pattern-profile lg:bg-no-repeat lg:bg-center lg:bg-contain0 p-12">
           <Image
             src="/profile.jpeg"
             width={400}
@@ -65,7 +65,7 @@ const InitialInfo = () => {
             className="rounded-full"
             alt="profile"
           />
-        </span>
+        </div>
       </div>
 
       <div className="flex pt-10 justify-center lg:justify-start lg:flex-row gap-4 lg:gap-5">

@@ -14,6 +14,7 @@ module.exports = {
         "hero-pattern": "url('/hero-patteern01.png')",
         "hero-pattern-secundary": "url('/Topology-3.png')",
         "hero-pattern-end": "url('/globo.png')",
+        "hero-pattern-profile": "url('/profile_wall.png')",
       },
       colors: {
         primary: "#0f0c17",

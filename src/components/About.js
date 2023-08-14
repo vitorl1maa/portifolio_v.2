@@ -26,7 +26,7 @@ function About() {
         </p>
       </div>
 
-      <div className="text-white flex flex-col lg:flex-row gap-10 lg:gap-72 items-center bg-hero-pattern-secundary bg-no-repeat bg-center bg-cover bg-opacity-5 py-3">
+      <div className="text-white lg:h-1/2 lg:pt-28 flex flex-col lg:flex-row gap-10 lg:gap-72 items-center bg-hero-pattern-secundary bg-no-repeat bg-center bg-cover bg-opacity-5 py-3">
         <div className="lg:w-2/4">
           <h3 className="text-3xl py-5 text-center lg:text-left">
             Diferenciais
@@ -77,7 +77,7 @@ function About() {
         </div>
 
         <div className="flex justify-center flex-col gap-3 ">
-          <span className="wrapper border border-neutral-800">
+          <span className="wrapper">
             <Image
               src="/image_curriculo.png"
               width={300}

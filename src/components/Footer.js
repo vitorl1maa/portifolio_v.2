@@ -16,7 +16,7 @@ function Footer() {
         component={<CaretUp size={32} color={"#fff"} />}
         className="top-btn"
       />
-      <div className="h-full  bg-hero-pattern-end bg-no-repeat bg-center bg-cover">
+      <div className="h-full">
         <div className="text-white bg-zinc-800/30 py-5 flex justify-between items-center container_layout">
           <span>&copy; 2023 Vitor Lima</span>
           <ul className="flex gap-3">
