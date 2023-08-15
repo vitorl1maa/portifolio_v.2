@@ -68,7 +68,7 @@ const InitialInfo = () => {
         </div>
       </div>
 
-      <div className="flex  justify-center lg:justify-start lg:flex-row gap-4 lg:gap-5">
+      <div className="flex pt-10  justify-center lg:justify-start lg:flex-row gap-4 lg:gap-5">
         <Link
           href="https://www.linkedin.com/in/vitor-lima-591aa4146/"
           target="_blank"
