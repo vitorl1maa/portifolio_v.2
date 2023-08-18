@@ -213,14 +213,14 @@ const Projects = ({ onProjectClick }) => {
           </div> */}
         </div>
 
-        {/* <div className="flex items-center justify-center gap-2 text-newOrange">
+        <div className="flex items-center justify-center gap-2 text-newOrange">
           <Link href="https://vercel.com/dashboard" target="_blank">
             <span className="text-xl cursor-pointer hover:font-bold">
               Mais projetos
             </span>
           </Link>
           <ArrowRight size={25} />
-        </div> */}
+        </div>
       </div>
     </div>
   );
