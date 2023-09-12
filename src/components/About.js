@@ -10,8 +10,8 @@ function About() {
         <h3 className="text-3xl py-5 text-center lg:text-left">Sobre mim</h3>
         <p className="text-lg text-justify">
           Olá! Sou um desenvolvedor Front-End apaixonado por programação. Com
-          habilidades em <span className="text-secundary">React.JS</span>,
-          <span className="text-secundary"> Next.JS</span> e{" "}
+          habilidades em <span className="text-secundary">React.JS</span>, <span className="text-secundary">Vue.js</span>,
+          <span className="text-secundary">TypeScript</span> e{" "}
           <span className="text-secundary">JavaScript</span>. Minha jornada no
           mundo do desenvolvimento tem sido marcada por um compromisso contínuo
           com a inovação e a aprendizagem. A cada projeto, procuro não apenas
