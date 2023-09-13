@@ -10,7 +10,7 @@ const Projects = ({ onProjectClick }) => {
   return (
     <div
       id="projects"
-      className="h-full  container_layout pt-32 pb-32 text-white w-full bg-hero-pattern-end bg-no-repeat bg-center bg-cover"
+      className="h-full  container_layout pt-24 pb-32 text-white w-full bg-hero-pattern-end bg-no-repeat bg-center bg-cover"
     >
       <h3 className="text-3xl text-center lg:text-left py-5">Projetos</h3>
 

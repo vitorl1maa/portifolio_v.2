@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import ProjectShow from "@/components/ProjectShow";
 import Footer from "@/components/Footer";
 import React, { useState } from "react";
+import Differential from "@/components/Differential";
 
 export default function Home() {
   const [activeProject, setActiveProject] = useState(null);
@@ -22,6 +23,7 @@ export default function Home() {
     <div className="flex flex-col w-full h-full">
       <InitialInfo />
       <About />
+      <Differential />
       {activeProject && activeProject.index !== undefined ? (
         <ProjectShow {...activeProject} onBackClick={handleBackClick} />
       ) : (
