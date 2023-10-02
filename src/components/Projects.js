@@ -90,7 +90,7 @@ const Projects = ({ onProjectClick }) => {
           >
             <div>
               <Image
-                src="/picked_today.png"
+                src="/cash_adm.png"
                 width={500}
                 height={100}
                 className="rounded-t-md"
@@ -99,18 +99,18 @@ const Projects = ({ onProjectClick }) => {
             </div>
             <div className="pt-5 px-3 flex justify-between">
               <div>
-                <h3 className="text-xl">Picked Today</h3>
-                <p>Blog</p>
+                <h3 className="text-xl">Cash Admin</h3>
+                <p>Dashboard</p>
               </div>
               <div className="flex gap-2 text-2xl items-end">
                 <span className="w-11 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center">
-                  <Icon icon="logos:react" />
+                  <Icon icon="skill-icons:nextjs-dark" />
                 </span>
                 <span className="w-11 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center">
-                  <Icon icon="skill-icons:javascript" />
+                  <Icon icon="skill-icons:mongodb" />
                 </span>
                 <span className="w-11 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center">
-                  <Icon icon="logos:firebase" />
+                  <Icon icon="logos:tailwindcss-icon" />
                 </span>
               </div>
             </div>

@@ -43,14 +43,20 @@ const data = {
     },
     {
       id: 3,
-      title: "Picked Today",
+      title: "Cash Admin",
       description:
-        "Este projeto é um blog onde as pessoas podem fazer posts sobre temas relacionados a elas ou sobre sua rotina. Ele foi construído com React.JS e Google Firebase.",
-      stacks: ["React, ", "JavaScript, ", "Firebase "],
-      icons: ["logos:react", "skill-icons:javascript", "logos:firebase"],
+        "Cash Admin é um dashboard de controle financeiro. Nós aqui em casa já estávamos cansados das inúmeras planilhas do Excel que usávamos para acompanhar as finanças. Logo, surgiu a ideia de desenvolver algo que desempenhasse o mesmo papel, mas de forma mais dinâmica. Nesta primeira versão da aplicação, optei por um design simples e intuitivo, com gráficos, tabelas e extratos. ",
+      stacks: ["Next, ", "TypeScript, ", "MongoDB, ", "Talwind, ", "JWT "],
+      icons: [
+        "skill-icons:nextjs-dark",
+        "skill-icons:typescript",
+        "skill-icons:mongodb",
+        "logos:tailwindcss-icon",
+        "logos:jwt-icon",
+      ],
       links: [
-        "https://picked-today.vercel.app/login",
-        "https://github.com/vitorl1maa/picked_today",
+        "https://cashadmin-production.up.railway.app/",
+        "https://github.com/vitorl1maa/cash_admin",
       ],
     },
     // {
