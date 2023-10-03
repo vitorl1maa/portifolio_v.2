@@ -46,13 +46,21 @@ const data = {
       title: "Cash Admin",
       description:
         "Cash Admin é um dashboard de controle financeiro. Nós aqui em casa já estávamos cansados das inúmeras planilhas do Excel que usávamos para acompanhar as finanças. Logo, surgiu a ideia de desenvolver algo que desempenhasse o mesmo papel, mas de forma mais dinâmica. Nesta primeira versão da aplicação, optei por um design simples e intuitivo, com gráficos, tabelas e extratos. ",
-      stacks: ["Next, ", "TypeScript, ", "MongoDB, ", "Talwind, ", "JWT "],
+      stacks: [
+        "Next, ",
+        "TypeScript, ",
+        "MongoDB, ",
+        "Tailwind, ",
+        "JWT, ",
+        "Prisma",
+      ],
       icons: [
         "skill-icons:nextjs-dark",
         "skill-icons:typescript",
         "skill-icons:mongodb",
         "logos:tailwindcss-icon",
         "logos:jwt-icon",
+        "vscode-icons:file-type-light-prisma",
       ],
       links: [
         "https://cashadmin-production.up.railway.app/",
