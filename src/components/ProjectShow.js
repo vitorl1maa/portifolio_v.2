@@ -54,7 +54,7 @@ const ProjectShow = ({
             <h3 className="text-xl text-center lg:text-left text-white pb-5">
               Algumas das stacks que foram utilizadas nesse projeto:
             </h3>
-            <div className="flex flex-wrap gap-5">
+            <div className="flex flex-wrap justify-center gap-5">
               {icons.map((icon, index) => (
                 <div
                   key={index}
