@@ -63,7 +63,7 @@ const data = {
         "vscode-icons:file-type-light-prisma",
       ],
       links: [
-        "https://cashadmin-production.up.railway.app/",
+        "https://cashadmin-app.up.railway.app/",
         "https://github.com/vitorl1maa/cash_admin",
       ],
     },
