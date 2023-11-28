@@ -29,7 +29,7 @@ function About() {
           a capacidade de manter-se atualizado são cruciais.
         </p>
         <h3 className="text-3xl pt-10 text-center lg:text-left">
-          Algumas tecnologias que utilizo:
+          Algumas tecnologias que eu utilizo:
         </h3>
         <div className="flex justify-around pt-5 flex-wrap">
           <div className="flex items-center flex-col gap-2">
@@ -37,6 +37,12 @@ function About() {
               <Icon icon="skill-icons:javascript" className="text-[3rem] " />
             </span>
             <p>JavaScipt</p>
+          </div>
+          <div className="flex items-center flex-col gap-2">
+            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
+              <Icon icon="devicon:java-wordmark" className="text-[5rem] " />
+            </span>
+            <p>Java</p>
           </div>
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
@@ -50,31 +56,25 @@ function About() {
             </span>
             <p>React.JS</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
-            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
-              <Icon icon="logos:create-react-app" className="text-[3rem] " />
-            </span>
-            <p>React Native</p>
-          </div>
-          <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:nextjs-dark" className="text-[3rem] " />
             </span>
             <p>Next.JS</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:typescript" className="text-[3rem] " />
             </span>
             <p>TypeScript</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:mongodb" className="text-[3rem] " />
             </span>
             <p>Mongo DB</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="logos:postgresql" className="text-[3rem] " />
             </span>
