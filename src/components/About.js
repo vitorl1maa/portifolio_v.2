@@ -12,10 +12,10 @@ function About() {
         <p className="text-lg text-justify">
           Olá! Sou um desenvolvedor de software apaixonado por programação. Com
           habilidades em{" "}
-          <span className="text-secundary font-extrabold">React.JS</span>,{" "}
-          <span className="text-secundary font-extrabold">Next.js </span> ,
-          <span className="text-secundary font-extrabold"> Kotlin</span>,
-          <span className="text-secundary font-extrabold"> React Native</span> e{" "}
+          <span className="text-secundary font-extrabold">JavaScript</span>,{" "}
+          <span className="text-secundary font-extrabold">React</span>,
+          <span className="text-secundary font-extrabold"> Java</span>,
+          <span className="text-secundary font-extrabold"> Docker</span> e{" "}
           <span className="text-secundary font-extrabold">Banco de dados</span>.
           Minha jornada no mundo do desenvolvimento tem sido marcada por um
           compromisso contínuo com a inovação e a aprendizagem. A cada projeto,
@@ -43,12 +43,6 @@ function About() {
               <Icon icon="devicon:java-wordmark" className="text-[5rem] " />
             </span>
             <p>Java</p>
-          </div>
-          <div className="flex items-center flex-col gap-2">
-            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
-              <Icon icon="logos:kotlin-icon" className="text-[3rem] " />
-            </span>
-            <p>Kotlin</p>
           </div>
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
