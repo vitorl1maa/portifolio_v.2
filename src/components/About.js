@@ -50,6 +50,12 @@ function About() {
             </span>
             <p>React.JS</p>
           </div>
+          <div className="flex items-center flex-col gap-2">
+            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
+              <Icon icon="logos:angular-icon" className="text-[3rem] " />
+            </span>
+            <p>Angular</p>
+          </div>
           <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:nextjs-dark" className="text-[3rem] " />

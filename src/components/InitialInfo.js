@@ -59,9 +59,9 @@ const InitialInfo = () => {
 
         <div className="rounded-full bg-none lg:bg-hero-pattern-profile lg:bg-no-repeat lg:bg-center lg:bg-contain0 p-12">
           <Image
-            src="/profile.jpeg"
-            width={400}
-            height={400}
+            src="/profile1.jpeg"
+            width={450}
+            height={450}
             className="rounded-full"
             alt="profile"
           />
