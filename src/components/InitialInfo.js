@@ -29,12 +29,12 @@ const InitialInfo = () => {
             >
               <Link href="#about">Sobre</Link>
             </li>
-            <li
+            {/* <li
               className="nav-links text-2xl lg:text-base"
               onClick={showNavbar}
             >
               <Link href="#projects">Projetos</Link>
-            </li>
+            </li> */}
             <button className="nav-close-btn">
               <X size={32} color="#E76F64" onClick={showNavbar} />
             </button>
@@ -48,7 +48,7 @@ const InitialInfo = () => {
       <div className="w-full h-1/2 lg:pt-32 flex flex-col lg:flex-row justify-center items-center lg:justify-evenly container mx-auto pt-10 text-white">
         <div className="w-full lg:w-4/5  items-center ">
           <h1 className="text-3xl text-center lg:text-left lg:text-5xl font-extrabold leading-tight">
-            Olá, meu nome é Vitor eu sou <br /> Full Stack{" "}
+            Olá, meu nome é Vitor eu sou <br /> Software{" "}
             <span className="text-secundary">Developer</span>.
           </h1>
           <p className="w-full text-center lg:text-left py-5 text-2xl lg:w-4/5 ">

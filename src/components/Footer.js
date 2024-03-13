@@ -17,7 +17,7 @@ function Footer() {
         className="top-btn"
       />
       <div className="h-full">
-        <div className="text-white bg-zinc-800/30 py-5 flex justify-between items-center container_layout">
+        <div className="text-white bg-zinc-800/30 py-5 flex justify-between items-center container_layout mt-20">
           <span>&copy; 2023 Vitor Lima</span>
           <ul className="flex gap-3">
             <Link

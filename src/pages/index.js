@@ -24,11 +24,11 @@ export default function Home() {
       <InitialInfo />
       <About />
       <Differential />
-      {activeProject && activeProject.index !== undefined ? (
+      {/* {activeProject && activeProject.index !== undefined ? (
         <ProjectShow {...activeProject} onBackClick={handleBackClick} />
       ) : (
         <Projects onProjectClick={handleProjectClick} />
-      )}
+      )} */}
       <Footer />
     </div>
   );

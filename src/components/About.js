@@ -13,11 +13,11 @@ function About() {
           Olá! Sou um desenvolvedor de software apaixonado por programação. Com
           habilidades em{" "}
           <span className="text-secundary font-extrabold">JavaScript</span>,{" "}
-          <span className="text-secundary font-extrabold">React</span>,
-          <span className="text-secundary font-extrabold"> Java</span>,
-          <span className="text-secundary font-extrabold"> Docker</span> e{" "}
-          <span className="text-secundary font-extrabold">Banco de dados</span>.
-          Minha jornada no mundo do desenvolvimento tem sido marcada por um
+          <span className="text-secundary font-extrabold"> React</span>,
+          <span className="text-secundary font-extrabold"> Angular</span>,
+          <span className="text-secundary font-extrabold"> React Native</span> e{" "}
+          <span className="text-secundary font-extrabold"> Docker</span>. Minha
+          jornada no mundo do desenvolvimento tem sido marcada por um
           compromisso contínuo com a inovação e a aprendizagem. A cada projeto,
           procuro não apenas atender, mas superar as expectativas, entregando
           funcionalidades robustas, designs intuitivos e um desempenho
@@ -38,12 +38,12 @@ function About() {
             </span>
             <p>JavaScipt</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          {/* <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="devicon:java-wordmark" className="text-[5rem] " />
             </span>
             <p>Java</p>
-          </div>
+          </div> */}
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="logos:react" className="text-[3rem] " />
@@ -86,12 +86,12 @@ function About() {
             </span>
             <p>Tailwind CSS</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          {/* <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="logos:aws" className="text-[3rem] " />
             </span>
             <p>AWS</p>
-          </div>
+          </div> */}
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="devicon:sanity" className="text-[3rem] " />
