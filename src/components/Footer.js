@@ -18,7 +18,7 @@ function Footer() {
       />
       <div className="h-full">
         <div className="text-white bg-zinc-800/30 py-5 flex justify-between items-center container_layout mt-20">
-          <span>&copy; 2023 Vitor Lima</span>
+          <span>&copy; Vitor Lima</span>
           <ul className="flex gap-3">
             <Link
               href="https://www.linkedin.com/in/vitor-lima-591aa4146/"

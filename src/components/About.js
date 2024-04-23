@@ -31,7 +31,7 @@ function About() {
         <h3 className="text-3xl pt-10 text-center lg:text-left">
           Algumas tecnologias que eu utilizo:
         </h3>
-        <div className="flex justify-around pt-5 flex-wrap">
+        <div className="flex justify-between  items-center pt-5 flex-wrap">
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:javascript" className="text-[3rem] " />
@@ -56,7 +56,7 @@ function About() {
             </span>
             <p>Angular</p>
           </div>
-          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
+          <div className="flex items-center flex-col gap-2 md:py-4 py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="skill-icons:nextjs-dark" className="text-[3rem] " />
             </span>
@@ -80,11 +80,11 @@ function About() {
             </span>
             <p>Postgres</p>
           </div>
-          <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2 py-4 md:py-0">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="logos:tailwindcss-icon" className="text-[3rem] " />
             </span>
-            <p>Tailwind CSS</p>
+            <p>Tailwind</p>
           </div>
           {/* <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
