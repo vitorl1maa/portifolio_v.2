@@ -14,10 +14,9 @@ function About() {
           habilidades em{" "}
           <span className="text-secundary font-extrabold">JavaScript</span>,{" "}
           <span className="text-secundary font-extrabold"> React</span>,
-          <span className="text-secundary font-extrabold"> Angular</span>,
-          <span className="text-secundary font-extrabold"> React Native</span> e{" "}
-          <span className="text-secundary font-extrabold"> Docker</span>. Minha
-          jornada no mundo do desenvolvimento tem sido marcada por um
+          <span className="text-secundary font-extrabold"> Angular </span>e
+          <span className="text-secundary font-extrabold"> React Native</span>.
+          Minha jornada no mundo do desenvolvimento tem sido marcada por um
           compromisso contínuo com a inovação e a aprendizagem. A cada projeto,
           procuro não apenas atender, mas superar as expectativas, entregando
           funcionalidades robustas, designs intuitivos e um desempenho
@@ -29,7 +28,7 @@ function About() {
           a capacidade de manter-se atualizado são cruciais.
         </p>
         <h3 className="text-3xl pt-10 text-center lg:text-left">
-          Algumas tecnologias que eu utilizo:
+          Algumas tecnologias que trabalho:
         </h3>
         <div className="flex justify-between  items-center pt-5 flex-wrap">
           <div className="flex items-center flex-col gap-2">
@@ -38,17 +37,26 @@ function About() {
             </span>
             <p>JavaScipt</p>
           </div>
-          {/* <div className="flex items-center flex-col gap-2">
+          <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
-              <Icon icon="devicon:java-wordmark" className="text-[5rem] " />
+              <Icon
+                icon="tabler:brand-react-native"
+                className="text-[5rem] text-[#087EA4] "
+              />
             </span>
-            <p>Java</p>
-          </div> */}
+            <p>React-native</p>
+          </div>
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="logos:react" className="text-[3rem] " />
             </span>
             <p>React.JS</p>
+          </div>
+          <div className="flex items-center flex-col gap-2">
+            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
+              <Icon icon="simple-icons:expo" className="text-[3rem] " />
+            </span>
+            <p>Expo</p>
           </div>
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
@@ -86,12 +94,7 @@ function About() {
             </span>
             <p>Tailwind</p>
           </div>
-          {/* <div className="flex items-center flex-col gap-2">
-            <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
-              <Icon icon="logos:aws" className="text-[3rem] " />
-            </span>
-            <p>AWS</p>
-          </div> */}
+
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
               <Icon icon="devicon:sanity" className="text-[3rem] " />
@@ -100,9 +103,12 @@ function About() {
           </div>
           <div className="flex items-center flex-col gap-2">
             <span className=" w-20 h-20 p-2 border rounded-md border-neutral-800 bg-zinc-800/30 flex justify-center items-center">
-              <Icon icon="skill-icons:docker" className="text-[3rem] " />
+              <Icon
+                icon="skill-icons:styledcomponents"
+                className="text-[3rem] "
+              />
             </span>
-            <p>Docker</p>
+            <p>Styled Co...</p>
           </div>
         </div>
       </div>
