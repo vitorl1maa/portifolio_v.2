@@ -53,16 +53,16 @@ const Differential = () => {
       <div className="flex justify-center flex-col gap-3 ">
         <span className="wrapper">
           <Image
-            src="/portifolio_image.png"
+            src="/portifolio_image.jpg"
             width={300}
             height={300}
             className="rounded-md"
           />
         </span>
         <Link
-          href="/SOFTWARE DEVELOPER.pdf"
+          href="/DESENVOLVEDOR_FRONT-END.pdf"
           target="_blank"
-          download="Full Stack Developer - Vitor Lima"
+          download="Desenvolvedor Front-end - Vitor Lima"
         >
           <button className="w-full button_default flex gap-1 items-center hover:border-secundary transition-all hover:translate-y-2">
             <ReadCvLogo size={25} />
